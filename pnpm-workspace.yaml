@@ -1,3 +1,5 @@
-allowBuilds:
-  sharp: set this to true or false
-  unrs-resolver: set this to true or false
+# pnpm-workspace.yaml is used here only for build-script approvals,
+# not for a multi-package workspace.
+onlyBuiltDependencies:
+  - sharp
+  - unrs-resolver
