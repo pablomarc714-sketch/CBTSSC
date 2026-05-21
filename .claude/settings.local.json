@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm --version)",
+      "Bash(npm --version)",
+      "Bash(npx --version)",
+      "Bash(corepack --version)",
+      "Bash(corepack enable *)",
+      "Bash(corepack prepare *)",
+      "Bash(npx --yes pnpm@latest --version)",
+      "Bash(npm config *)",
+      "Bash(npm install *)",
+      "PowerShell(pnpm --version)",
+      "Bash(ls \"/c/Users/pablo/AppData/Roaming/npm\" 2>&1 | head -10)",
+      "Bash(export PATH=\"/c/Users/pablo/AppData/Roaming/npm:$PATH\")",
+      "Bash(pnpm dlx *)",
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --eslint --app --no-src-dir --import-alias='@/*' --turbopack --use-pnpm --no-git --yes)"
+    ]
+  }
+}
